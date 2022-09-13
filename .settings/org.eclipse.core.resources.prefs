@@ -1,2 +1,5 @@
 eclipse.preferences.version=1
 encoding//src/main/java/WebfilmOneteam/Controller/User/BaseController.java=UTF-8
+encoding//src/main/java/WebfilmOneteam/DAO/FilmsDao.java=UTF-8
+encoding//src/main/java/WebfilmOneteam/Entity/Mapper/MapperFilms.java=UTF-8
+encoding//src/main/webapp/WEB-INF/views/layouts/user/header.jsp=UTF-8

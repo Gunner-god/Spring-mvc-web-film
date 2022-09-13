@@ -1,16 +1,17 @@
+ <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
  <footer class="footer ">
           <div class="section-wrapper">
                <div class="row ">
                    <div class="col-6 footer-header">
                          <a href="#" class="logo">
-                              <i style="margin-right: 10px;" class='bx bx-movie-play bx-tada main-color'></i>Fl<span class="main-color">i</span>x
+                              <i style="margin-right: 10px;" class='bx bx-movie-play bx-tada main-color'></i>One<span class="main-color">T</span>eam
                          </a>
 
                          <p class="description">
-                              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                              Quas, possimus eius. Deserunt non odit, cum vero reprehenderit
-                              laudantium odio vitae autem quam, incidunt molestias ratione mollitia accusantium,
-                              facere ab suscipit.
+                              Hậu Optimus sinh ra và lớn lên ở vùng quê nghèo Đông Nam Bộ,
+                              từ nhỏ phải chịu nhiều vất vả, đến nay cũng vậy, teamwork nhưng
+                              toàn tao work
                          </p>
                          <div class="social-list">
                               <a href="#" class="social-item">
@@ -29,7 +30,7 @@
                          <div class="row">
                               <div class="col-4 align-items-center">
                                    <div class="content">
-                                        <p class="main-color" style="font-size: 1.2rem;"><b>Flix</b></p>
+                                        <p class="main-color" style="font-size: 1.2rem;"><b>Hậu Optimus</b></p>
                                         <ul class="footer-menu">
                                             <li><a href="#"> About us</a></li>
                                             <li><a href="#"> My profile</a></li>

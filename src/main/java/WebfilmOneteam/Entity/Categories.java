@@ -2,10 +2,10 @@ package WebfilmOneteam.Entity;
 
 public class Categories {
 	private int idThe_Loai;
+	private String Ten_theloai;
 	public Categories() {
 		super();
 	}
-	private String Ten_theloai;
 	public int getIdThe_Loai() {
 		return idThe_Loai;
 	}

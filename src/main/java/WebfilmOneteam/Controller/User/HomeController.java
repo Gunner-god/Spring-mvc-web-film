@@ -14,6 +14,9 @@ public class HomeController extends BaseController {
 //		ModelAndView mv = new ModelAndView("user/index"); // giống nhau: mv.setViewName("user/index");
 		_mvShare.addObject("slides", _homeService.GetDataSlides());
 		_mvShare.addObject("categories", _homeService.GetDataCategories());	
+		_mvShare.addObject("films", _homeService.GetDataFilms());
+		_mvShare.addObject("films_action", _homeService.GetDataFilms_Action());
+		_mvShare.addObject("films_anime", _homeService.GetDataFilms_Anime());
 		_mvShare.setViewName("user/index"); // trả về view nằm ở thư mục /user/index
 		return _mvShare;
 	}

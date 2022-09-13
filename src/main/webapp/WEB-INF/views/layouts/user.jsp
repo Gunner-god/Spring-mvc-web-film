@@ -9,7 +9,7 @@
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-     <title>Flix | Movie web</title>
+     <title>OneTeam | Movie web</title>
 
 
      <link href="<c:url value="./assets/img/Images/logo-foursquare.svg"/>"rel="shortcut icon"/>

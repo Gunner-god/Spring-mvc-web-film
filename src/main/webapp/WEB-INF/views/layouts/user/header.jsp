@@ -1,5 +1,6 @@
 <!-- NAV -->
-
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
           <div class="menu-tablet" id="menu-tablet">
                <ul class="menu-tb-list">
                     <li><a href="#">
@@ -77,7 +78,7 @@
           <div class="container">
                <div class="nav">
                     <a href="#" class="logo">
-                         <i style="margin-right: 10px;" class='bx bx-movie-play bx-tada main-color'></i>Fl<span class="main-color">i</span>x
+                         <i style="margin-right: 10px;" class='bx bx-movie-play bx-tada main-color'></i>One<span class="main-color">T</span>eam
                     </a>
                     
                     <form action="" class="search-box">
@@ -105,58 +106,34 @@
 
           <div class="nav-wrapper">
                 <ul class="nav-menu" id="nav-menu">
+               
                     <li class="nav-item active">
                          <a href="#">
                               <span class="nav-icon"><ion-icon name="home-outline"></ion-icon></span>
                               Home
                          </a>
                     </li>
-                   
-                    <li class="nav-item">
+                    <c:forEach var="item" items="${categories}">
+						 <li class="nav-item">
                          <a href="#latest-section">
                               <span class="nav-icon"><ion-icon name="film-outline"></ion-icon></span>
-                              Movies   
+                                ${item.ten_theloai }
                          </a>
                     </li>
-                    <li class="nav-item">
-                         <a href="#section-tv">
-                              <span class="nav-icon"><ion-icon name="tv-outline"></ion-icon></span>
-                              Tv Series  
-                         </a>
-                    </li>
-
-                    <li class="nav-item">
+					</c:forEach>
+					  <li class="nav-item">
                          <a href="#">
-                              <span class="nav-icon"><ion-icon name="grid-outline"></ion-icon></span>
-                              Genre
+                              <span class="nav-icon"><ion-icon name="film-outline"></ion-icon></span>
+                              Tất cả phim
                          </a>
                     </li>
-                   
-                    <li class="nav-item">
-                         <a href="#">
-                              <span class="nav-icon"><ion-icon name="settings-outline"></ion-icon></span>
-                              setting    
-                         </a>
-                    </li>
-                    <li class="nav-item">
-                         <a href="#">
-                              <span class="nav-icon"><ion-icon name="chatbubbles-outline"></ion-icon></span>
-                              messages  
-                         </a>
-                    </li>
-                    <li class="nav-item">
-                         <a href="#">
-                              <span class="nav-icon"><ion-icon name="help-circle-outline"></ion-icon></span>
-                              about
-                         </a>
-                    </li>
-
-                    <li class="nav-item">
+                 	    <li class="nav-item">
                          <a href="#">
                               <span class="nav-icon"><ion-icon name="person-outline"></ion-icon></span>
-                              Account
+                              Mua Gói Phim
                          </a>
                     </li>
+                 	
                     
                </ul>
           </div>
