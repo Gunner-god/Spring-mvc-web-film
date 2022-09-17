@@ -3,6 +3,7 @@
  <footer class="footer ">
           <div class="section-wrapper">
                <div class="row ">
+               
                    <div class="col-6 footer-header">
                          <a href="#" class="logo">
                               <i style="margin-right: 10px;" class='bx bx-movie-play bx-tada main-color'></i>One<span class="main-color">T</span>eam
@@ -10,8 +11,9 @@
 
                          <p class="description">
                               Hậu Optimus sinh ra và lớn lên ở vùng quê nghèo Đông Nam Bộ,
-                              từ nhỏ phải chịu nhiều vất vả, đến nay cũng vậy, teamwork nhưng
-                              toàn tao work
+                              từ nhỏ phải chịu nhiều vất vả, đến nay cũng vậy. Sau khoảng thời gian vất vả
+                              anh quyết tâm trở thành bet thủ
+                           
                          </p>
                          <div class="social-list">
                               <a href="#" class="social-item">

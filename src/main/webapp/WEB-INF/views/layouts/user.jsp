@@ -12,11 +12,11 @@
      <title>OneTeam | Movie web</title>
 
 
-     <link href="<c:url value="./assets/img/Images/logo-foursquare.svg"/>"rel="shortcut icon"/>
+     <link href="<c:url value="/assets/img/Images/logo-foursquare.svg"/>"rel="shortcut icon"/>
      <!-- CSS -->
-	<link href="<c:url value="./assets/component.css"/>"rel="stylesheet"/>
-	<link href="<c:url value="./assets/style.css"/>"rel="stylesheet"/>
-	<link href="<c:url value="./assets/grid.css"/>"rel="stylesheet"/>
+	<link href="<c:url value="/assets/component.css"/>"rel="stylesheet"/>
+	<link href="<c:url value="/assets/style.css"/>"rel="stylesheet"/>
+	<link href="<c:url value="/assets/grid.css"/>"rel="stylesheet"/>
      <!-- GOOGLE FONTS -->
      <link href="<c:url value="https://fonts.gstatic.com"/>"rel="preconnect"/>
      <link href="<c:url value="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap"/>"rel="stylesheet"/>
@@ -31,7 +31,7 @@
 
      <!-- BOX ICON  -->
      <link href="<c:url value="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"/>"rel="stylesheet"/>
-  	<link href="<c:url value="./assets/fontawesome-free-5.15.4-web/css/all.min.css"/>"rel="stylesheet"/>
+  	<link href="<c:url value="/assets/fontawesome-free-5.15.4-web/css/all.min.css"/>"rel="stylesheet"/>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
       <link href="<c:url value="./themify-icons/themify-icons.css"/>"rel="stylesheet"/>
@@ -41,6 +41,6 @@
 	<%@include file="/WEB-INF/views/layouts/user/header.jsp" %>
 	<decorator:body />
 	<%@include file="/WEB-INF/views/layouts/user/footer.jsp" %>
-     <script src="./assets/main.js"></script>
+     <script src="<c:url value="/assets/main.js" /> "></script>
 </body>
 </html>

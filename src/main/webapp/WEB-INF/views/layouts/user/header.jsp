@@ -108,14 +108,14 @@
                 <ul class="nav-menu" id="nav-menu">
                
                     <li class="nav-item active">
-                         <a href="#">
+                         <a href="/Spring-webfilm">
                               <span class="nav-icon"><ion-icon name="home-outline"></ion-icon></span>
                               Home
                          </a>
                     </li>
                     <c:forEach var="item" items="${categories}">
 						 <li class="nav-item">
-                         <a href="#latest-section">
+                         <a href=' <c:url value="/the-loai/${item.idThe_Loai}"/>'>
                               <span class="nav-icon"><ion-icon name="film-outline"></ion-icon></span>
                                 ${item.ten_theloai }
                          </a>
@@ -139,3 +139,5 @@
           </div>
 
      <!--END NAV -->
+  
+     

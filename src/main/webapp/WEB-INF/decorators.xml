@@ -1,8 +1,14 @@
-<decorators  defaultdir="/WEB-INF/views/layouts">
-<decorator name="user" page="user.jsp">
-<pattern>/*</pattern>
-</decorator>
-<decorator name="admin" page="admin.jsp">
-<pattern>/quan-tri/*</pattern>
-</decorator>
+
+<decorators defaultdir="/WEB-INF/views/layouts">
+	<decorator name="admin" page="admin.jsp">  <!-- layout-master -->
+		<pattern>/ad*</pattern>
+	</decorator>
+
+	<decorator name="user" page="user.jsp">  <!-- layout-master -->
+		<pattern>/*</pattern>
+	</decorator>
+	<decorator name="login" page="detail.jsp">  <!-- layout-master -->
+		<pattern>/d*</pattern>
+	</decorator>
+
 </decorators>

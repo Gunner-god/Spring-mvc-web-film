@@ -16,9 +16,12 @@ public class Films {
 		return idPhim;
 	}
 
+
+
 	public void setIdPhim(int idPhim) {
 		this.idPhim = idPhim;
 	}
+	
 
 	public String getTen_phim() {
 		return Ten_phim;
@@ -59,6 +62,9 @@ public class Films {
 	public void setIdThe_Loai(int idThe_Loai) {
 		this.idThe_Loai = idThe_Loai;
 	}
+
+
+
 	
 	
 	
