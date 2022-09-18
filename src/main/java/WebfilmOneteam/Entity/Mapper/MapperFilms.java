@@ -20,6 +20,7 @@ public class MapperFilms implements RowMapper<Films> {
 		films.setLink_phim(rs.getString("Link_phim"));
 		films.setGoi(rs.getString("Goi"));
 		films.setIdPhim(rs.getInt("idThe_Loai"));
+		films.setThongtin(rs.getString("thongtin"));
 		return films;
 	}
 

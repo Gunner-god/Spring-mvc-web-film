@@ -84,7 +84,7 @@
                   
                     <div class="movies-slide row">
                          	<c:forEach var="item" items="${films_action}" varStatus="index"> 
-                         	  <a href='<c:url value ="/film-detail/${item.idPhim}" />' class="movie-item col-3-5 m-5 s-11 to-top show-on-scroll">
+                         	    <a href=' <c:url value="/film-detail/${item.idPhim}"/>' class="movie-item col-3-5 m-5 s-11 to-top show-on-scroll">
                               <div>
                                    <img src="${item.anh_minhhoa}" alt="">
                                    <div class="movie-item-content">
@@ -142,7 +142,7 @@
 
                     <div class="movies-slide row" id="tv-slider">
                     	<c:forEach var="item" items="${films_anime}" varStatus="index">
-                    	        <a href="<c:url value ="/film-detail/${item.idPhim}" />" class="movie-item col-3-5  m-5 s-11 to-top show-on-scroll">
+                    	        <a href="<c:url value ="/film-detail/${item.ten_phim}" />" class="movie-item col-3-5  m-5 s-11 to-top show-on-scroll">
                               <div>
                                    <img src="${item.anh_minhhoa}" alt="">
                                    <div class="movie-item-content">

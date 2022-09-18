@@ -5,6 +5,7 @@ public class Films {
 	private String Ten_phim;
 	private String Anh_minhhoa;
 	private String Link_phim;
+	private String thongtin;
 	private String Goi;
 	private int idThe_Loai;
 	
@@ -61,6 +62,14 @@ public class Films {
 
 	public void setIdThe_Loai(int idThe_Loai) {
 		this.idThe_Loai = idThe_Loai;
+	}
+
+	public String getThongtin() {
+		return thongtin;
+	}
+
+	public void setThongtin(String thongtin) {
+		this.thongtin = thongtin;
 	}
 
 
