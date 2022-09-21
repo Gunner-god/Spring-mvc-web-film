@@ -1,6 +1,6 @@
 package WebfilmOneteam.Service.User;
 
-import java.util.ArrayList;
+
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -32,9 +32,6 @@ public class CategoryService implements I_CategoryService {
 	
 	
 	
-	// lấy toàn bộ sản phẩm
-//	public List<Films> GetAllFilms() {
-//		return FilmsDao.GetAllFilms();
-//	}
+
 	
 }

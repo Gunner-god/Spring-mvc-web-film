@@ -1,6 +1,5 @@
 package WebfilmOneteam.Service.User;
 
-import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -15,16 +14,7 @@ public class FilmService implements I_FilmService {
 	@Autowired
 	private FilmsDao FilmsDao;
 	
-	public Films GetOneFilm_ByID(int id) {		
+	public Films GetOneFilm_ByID(String id) {		
 		return FilmsDao.GetOneFilm_ByID(id);
 	}
-
-	public List<Films> GetFilmsRelated(int idExist, int idCategory) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-
-	
-	
 }

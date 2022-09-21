@@ -43,8 +43,8 @@ public class FilmsDao extends BaseDao {
 					return list;
 				}
 				// lấy 1 phim
-				public Films GetOneFilm_ByID(int id) {
-					String sql = " SELECT * FROM phim WHERE idPhim = "+id;
+				public Films GetOneFilm_ByID(String id) {
+					String sql = " SELECT * FROM phim WHERE Ten_phim = N'" + id + "'";
 					Films p = _jdbcTemplate.queryForObject(sql, new MapperFilms());
 					return p;
 				}

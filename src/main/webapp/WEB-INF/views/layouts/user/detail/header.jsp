@@ -9,7 +9,7 @@
      
      <div class="container">
           <div class="nav bg-color">
-               <a href="index.html" class="logo">
+               <a href="/Spring-webfilm" class="logo">
                     <i style="margin-right: 10px;" class='bx bx-movie-play bx-tada main-color'></i>One<span class="main-color">T</span>eam
                </a>
                
@@ -21,7 +21,7 @@
                </form>
 
                <div class="nav-sign">
-                    <a href="#" class="btn btn-hover">
+                     <a href=' <c:url value="/us/dang-nhap"/>' class="btn btn-hover">
                          <span>Sign in</span>
                     </a>
                

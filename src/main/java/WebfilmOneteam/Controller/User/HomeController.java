@@ -22,9 +22,5 @@ public class HomeController extends BaseController {
 	}
 	
 	
-	@RequestMapping(value = "/lien-he")
-	public ModelAndView Contact() {
-		ModelAndView mv = new ModelAndView("user/contact");
-		return mv;
-	}
+
 }

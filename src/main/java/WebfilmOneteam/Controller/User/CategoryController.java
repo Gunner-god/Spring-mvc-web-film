@@ -29,6 +29,7 @@ public class CategoryController extends BaseController {
 		_mvShare.addObject("slides", _homeService.GetDataSlides());
 		_mvShare.addObject("categories", _homeService.GetDataCategories());	
 		_mvShare.addObject("data", categoryService.GetDataFilms_ByID(Integer.parseInt(id)));
+		_mvShare.addObject("films", _homeService.GetDataFilms());
 //		int totalData = categoryService.GetDataFilms_ByID(Integer.parseInt(id)).size();
 //		_mvShare.addObject("totalData", totalData);
 //		int firstPage = 1;

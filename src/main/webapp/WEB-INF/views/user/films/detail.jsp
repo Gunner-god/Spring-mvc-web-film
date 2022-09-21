@@ -1,6 +1,7 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
-<%@include file="/WEB-INF/views/taglib.jsp"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ taglib uri="http://www.opensymphony.com/sitemesh/decorator" prefix="decorator" %>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <body>
 
 
@@ -10,22 +11,19 @@
      <section class="movie-banner">
           <div class="hero-wrapper">
                <div class="movie-banner-item">
-                     <img src="${datafilm.anh_minhhoa}" />  
+				 <img src="${datafilm.anh_minhhoa}" />  
                </div>
 
-               <div class="movie-card">
+                  <a href=' <c:url value="/film-detail/xem-phim/${datafilm.ten_phim }"/>'> 
+                  <div class="movie-card">       
                      <img src="${datafilm.anh_minhhoa}" />  
-
-                    <div class="movie-card-content">
-                         <h2>${datafilm.ten_phim }</h2>
-                         
-
+                    <div class="movie-card-content">            
+                         <h2>${datafilm.ten_phim }</h2>                      
                          <ul class="movie-card-btns">
                               <li class="movie-card-btn">
                                    ${datafilm.goi}
                               </li>
                          </ul>
-
                          <p class="movie-card-description">
                                ${datafilm.thongtin}
                          </p>
@@ -45,6 +43,7 @@
                </div>
 
           </div>
+     </a>    
      </section>
 
 

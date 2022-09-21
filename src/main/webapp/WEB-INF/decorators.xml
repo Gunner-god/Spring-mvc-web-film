@@ -3,8 +3,11 @@
 	<decorator name="admin" page="admin.jsp">  <!-- layout-master -->
 		<pattern>/ad*</pattern>
 	</decorator>
-	<decorator name="login" page="detail.jsp">  <!-- layout-master -->
+	<decorator name="detail" page="detail.jsp">  <!-- layout-master -->
 		<pattern>/film-detail*</pattern>
+	</decorator>
+		<decorator name="login" page="register.jsp">  <!-- layout-master -->
+		<pattern>/us*</pattern>
 	</decorator>
 	<decorator name="user" page="user.jsp">  <!-- layout-master -->
 		<pattern>/*</pattern>

@@ -10,9 +10,6 @@ import WebfilmOneteam.Entity.Films;
 
 @Service
 public interface I_FilmService {
-	public Films GetOneFilm_ByID(int id);
-
-	public List<Films> GetFilmsRelated(int idExist, int idCategory);
-
+	public Films GetOneFilm_ByID(String id);
 	
 }
